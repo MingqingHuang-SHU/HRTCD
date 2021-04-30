@@ -1,5 +1,5 @@
 # HRTCD
-These are the data sources of Tencent Weibo in article "Information Fusion Oriented Heterogeneous Social Network for Friend Recommendation via Community Detection"
+These are the datasets of Tencent Weibo in article "Information Fusion Oriented Heterogeneous Social Network for Friend Recommendation via Community Detection"
 
 --------------------
 
@@ -25,9 +25,9 @@ tencent-content-*.xls: the content of microblogging released by the 12,746 users
 
 text: the content of microblogging
 
-source_text: the initial content in interaction
+source_text: the source content in interaction
 
-source_mid: the ID of the initial microblog in interaction
+source_mid: the ID of the source microblog in interaction
 
 type: the type of microblogging (1--original; 2--reprint; 3--private letter; 4--reply; 5--empty reply; 6--mention; 7—comment)
 
@@ -35,7 +35,7 @@ count: the number of times being forwarded
 
 mcount: the number of times being commented
 
-from1: the source type
+from1: the mode of production
 
 mid: the ID of the microblog
 
